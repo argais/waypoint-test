@@ -1,4 +1,4 @@
-project = "hashicups"
+project = "hashicups-git"
 
 app "public-api" {
   labels = {
@@ -133,7 +133,7 @@ app "frontend" {
   build {
     use "docker-pull" {
       image              = "hashicorpdemoapp/frontend"
-      tag                = "v0.0.5"
+      tag                = "v0.0.7"
       disable_entrypoint = true
     }
   }
